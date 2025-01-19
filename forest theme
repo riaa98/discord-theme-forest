@@ -1,0 +1,30 @@
+/* Forest Theme for Discord */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+:root {
+    --background-color: #2b3e50;
+    --text-color: #ffffff;
+    --accent-color: #6ba368;
+    --font-family: 'Raleway', sans-serif;
+}
+
+* {
+    font-family: var(--font-family) !important;
+}
+
+body {
+    background-color: var(--background-color) !important;
+}
+
+.theme-dark .chat, .theme-dark .app, .theme-dark .title-bar, .theme-dark .container-iksrDt, .theme-dark .container-3baos1 {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+}
+
+.theme-dark .container-iksrDt, .theme-dark .container-3baos1 {
+    border: 1px solid var(--accent-color) !important;
+}
+
+.theme-dark .title-bar {
+    background-color: var(--accent-color) !important;
+}
